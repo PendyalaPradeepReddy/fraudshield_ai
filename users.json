@@ -1,0 +1,21 @@
+{
+  "admin": {
+    "username": "admin",
+    "full_name": "Admin User",
+    "email": "admin@test.com",
+    "password": "820b65e426e21e17393acb2e3d14545c890127d8020960af22008db0e689970c",
+    "salt": "90d2f61d28b17eb3b1fbce7894ea4a53",
+    "created_at": "2026-03-02T21:06:11.275885",
+    "last_login": "2026-03-06T15:28:37.493492",
+    "settings": {
+      "email_config": {
+        "smtp_server": "smtp.gmail.com",
+        "smtp_port": 465,
+        "sender_email": "pradipreddy06@gmail.com",
+        "sender_password": "azjg mntt neos wava",
+        "recipient_email": "pradipreddy1605@gmail.com",
+        "threshold": 75
+      }
+    }
+  }
+}

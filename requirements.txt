@@ -1,0 +1,20 @@
+# Machine Learning & Core
+pandas>=1.5.0
+numpy>=1.24.0
+scikit-learn>=1.2.0
+xgboost>=1.7.0
+imbalanced-learn>=0.10.0
+joblib>=1.2.0
+
+# API & Web App
+fastapi>=0.100.0
+uvicorn>=0.23.0
+pydantic>=2.0.0
+streamlit>=1.30.0
+
+# Alerting & Secrets
+python-dotenv>=1.0.0
+
+# Optional / External Streaming Server Dependencies
+kafka-python-ng>=2.2.0
+requests>=2.30.0

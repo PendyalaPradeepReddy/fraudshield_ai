@@ -1,0 +1,10 @@
+__pycache__/
+.env
+creditcard.csv
+*.csv
+.DS_Store
+*.pkl
+*.model
+cache/
+snapshots/
+.streamlit/
