@@ -697,7 +697,7 @@ elif page == "eda":
 
     # Amount buckets
     df["AmountBucket"] = pd.cut(df["Amount"],
-        bins=[0,10,50,200,500,2000,df["Amount"].max()+1],
+        bins=[float('-inf'), 10, 50, 200, 500, 2000, float('inf')],
         labels=["<$10","$10-50","$50-200","$200-500","$500-2K",">$2K"])
     bucket_fraud = df[df["Class"]==1].groupby("AmountBucket", observed=True).size().reset_index(name="fraud_count")
     bucket_all   = df.groupby("AmountBucket", observed=True).size().reset_index(name="total_count")
