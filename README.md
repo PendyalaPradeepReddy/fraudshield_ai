@@ -2,6 +2,8 @@
 
 A **production-grade** fraud detection dashboard built with Machine Learning and Data Analytics. Designed to identify suspicious transactions and provide real-time insights through an interactive multi-page dashboard.
 
+🔴 Live Demo:** [FraudShield]([https://fraudshieldai.streamlit.app/])
+
 ---
 
 ## 🚀 Features
